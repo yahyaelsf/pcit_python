@@ -29,13 +29,32 @@ names = ["yahya" , "ahmed" , "ali" , "yahya"]
 # dic |= {"is_emploeed" : True}
 # dic.pop("age")
 # print(dic)
-currency = {
-    "usd" : 2.9,
-    "eur" : 4.5 ,
-    "god" : 4.2
-}
-select_cur = input("Enter your curencu enverter : (usd , eur , god) :")
-amount = int(input("Enter your amount :"))
-value = currency.get(select_cur)
-total = amount * value
-print(f"the total number is {total} TLS")
+# currency = {
+#     "usd" : 2.9,
+#     "eur" : 4.5 ,
+#     "god" : 4.2
+# }
+# select_cur = input("Enter your curencu enverter : (usd , eur , god) :")
+# amount = int(input("Enter your amount :"))
+# value = currency.get(select_cur)
+# total = amount * value
+# print(f"the total number is {total} TLS")
+
+# if condition :
+# age = 30 
+# if age <= 25 :
+#     print("you are stell young")
+# elif age > 25 :
+#     print("You are Youth ")
+# else :
+#     print("you are old man")
+for i in range(1,101):
+    if i % 3 == 0 and i % 5==0 :
+        print("FizzBuzz")
+        
+    elif i % 5 == 0 :
+        print("Buzz")
+    elif i % 3 == 0  :
+        print("Fizz")
+    else :
+        print(".....")
