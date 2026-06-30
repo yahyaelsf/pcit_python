@@ -31,6 +31,7 @@
 # print(email[:ind_one])
 # print(email[ind_one + 1:ind_tow])
 # print(email[ind_tow + 1:])
-length = 170 
-wight = 60 
-print( not wight >= 60)
+# length = 170 
+# wight = 60 
+# print( not wight >= 60)
+print("welcome in cidespace in github")
