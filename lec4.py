@@ -55,6 +55,6 @@
 # print(dt.datetime(2025 , 10 , 31).date())
 # import login as lg
 # print(lg.login("yahya" , "123456**"))
-from termcolor import colored 
-print(colored("welcome" , color="light_green"))
+# from termcolor import colored 
+# print(colored("welcome" , color="light_green"))
 
