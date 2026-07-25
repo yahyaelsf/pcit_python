@@ -1,0 +1,12 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+
+
+*.csv
